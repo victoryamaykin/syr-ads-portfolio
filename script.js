@@ -63,3 +63,22 @@
     });
 
 }(jQuery));
+
+$('button').on('click', function(){
+  
+    const cards = Array.from(document.querySelectorAll('.card'));
+    
+    for(card of cards){
+      card.style.display = 'none'; 
+    }
+    
+    const categoryOne = this.getAttribute('category-one');
+    const categoryTwo = this.getAttribute('category-two'); 
+    
+    const result = cards.filter(card => card.getAttribute('category') === categoryOne || card.getAttribute('category') === categoryTwo || categoryOne === 'all');
+    
+    for(card of result){
+      card.style.display = 'block';
+    }
+    
+  });  

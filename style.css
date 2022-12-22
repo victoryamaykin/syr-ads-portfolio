@@ -152,12 +152,22 @@ nav {
     WORK FLOW STYLES
 ==================================================*/
 
-
+section#work {
+    display: flex;
+  }
+  
 .work-div {
     width: 100%;
     border: 0;
     padding: 20px;
     margin-bottom: 30px;
+}
+
+.card {
+width:70px;
+height:100px;
+border:1px solid black;
+margin:4px;
 }
 
 /*=======================================
