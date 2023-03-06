@@ -89,7 +89,7 @@ img {
     clear: both;
 }
 
-ul > li {
+ul>li {
     text-align: center;
 }
 
@@ -115,11 +115,12 @@ ul > li {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-  }
-  a.btnStack:hover {
+}
+
+a.btnStack:hover {
     background-color: #000;
     color: #fff;
-  }
+}
 
 /*=======================================
     COLOR CODES
@@ -192,8 +193,8 @@ nav {
 
 section#work {
     display: flex;
-  }
-  
+}
+
 .work-div {
     width: 100%;
     border: 0;
@@ -202,10 +203,8 @@ section#work {
 }
 
 .card {
-width:900px;
-height:400px;
-border:1px solid black;
-margin:4px;
+    border: 1px solid black;
+    margin: 4px;
 }
 
 /*=======================================
